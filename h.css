@@ -1,0 +1,62 @@
+body {
+
+	background-image:url("L.jpg");
+	background-size: 100%;
+
+    }
+header {
+    height:200px;
+    
+    width:980px;
+   }
+   img{
+	height: 200px;
+	width: 200px;
+}
+   .book {
+  width: 210px;
+  padding: 20px;
+  text-align: left;
+  position :relative;
+  font: 90px ;
+  color: #B8860B;
+  border-style: solid;
+  border-width: 20px;
+  border-color: lemonchiffon;
+  animation:myAnimation 2s linear 1s 1 forwards;
+  
+}
+@keyframes myAnimation {
+  100% {
+    border-color: yellowgreen orange olive gold;
+  }
+}
+h2{
+font-size: 40px;
+  color:  #E6804A;
+	font-style: oblique;
+  font-variant: small-caps;
+}
+
+li{
+  font-size:28px;
+  font-style:italic;
+color :white;
+}
+input{[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 9px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position:20px 10px; 
+    background-repeat: round;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+}

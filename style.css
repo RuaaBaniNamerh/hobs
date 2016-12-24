@@ -1,0 +1,243 @@
+.main {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0; 
+}
+
+.AboutSite {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0; 
+	background-image: url("L.jpg");
+}
+
+ 
+.bed a {
+    box-shadow: inset 0px -4px 0px 0px #c72727;
+    display: -webkit-inline-box;
+        display:  -moz-inline-box;
+
+}
+
+.bed a:visited  {
+	color: white;
+}
+.bed dl {
+	display: block;
+	padding: 10px;
+	margin-left: 10px; 	
+	margin: inherit;
+}
+
+.bed dl:hover {
+
+	background-color: white;
+	color: black;
+}
+
+
+.bed a {
+	text-decoration: none;
+}
+
+.bed a:visted {
+	color: white;
+}
+header {
+	width: 100%;
+	background-color: #333;
+	color: #FFF;
+}
+
+
+ dt:hover {
+	cursor: pointer;
+}
+
+
+.mySlides {
+	max-height: 300px;
+}
+
+
+/********* BOOK DIV ********/
+
+.BookDiv {
+    display: -webkit-inline-box; /**** make div's on line horizantal***/
+ 	max-height: 300px;
+ 	max-width: 250px;
+}
+.book {
+	display: block;
+	margin: 4px 3px ;
+	border: 1px solid	 black;
+	width: 200px;
+	height: 380px;  
+}
+
+div.book img {
+	max-width: 200px;
+	max-height: 340px
+	height:340px;
+	width: 200px;
+}
+
+div.book p {
+	display: none;
+}
+
+
+
+div.book button1:hover {
+ background-color: black;
+ border: 1px solid black;
+ color: white;
+ 
+}
+
+
+/****************************/
+
+
+
+
+
+/****** NO select *********/
+
+
+dt , .mySlides {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+/**** SCROLL ****/
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0 0 6px rgba(200,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #c72727;
+  outline: 1px solid slategrey;
+}
+
+
+/**Bottom*/
+
+
+.bottom {
+	width: 100%;
+	background-color: white;
+	color: #FFF;
+}
+/*
+.bottom {
+    box-shadow: inset 0px -4px 0px 0px #c72727;
+    display: -webkit-inline-box;
+      display:  -moz-inline-box;
+
+
+
+
+/**** PAGE ABOUT ****/
+
+
+.About {
+	display: block;
+	height: 150px;
+	width: 200px;
+	border: 1px solid black;
+	background-color: silver;
+}
+
+.About img {
+	max-width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+
+.AboutMaster {
+    display: -webkit-inline-box;
+    background-color: green;
+}
+
+.Para { padding-left: 10px;
+	  padding-right: 10px;
+}
+
+.AboutSite {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0; 
+}
+
+div.book #button1 {
+		 font-family: 'Roboto', sans-serif;
+		 color: white;
+	     position: absolute;
+		 background-color: #c72727;
+		 border: 1px solid #c72727;
+		 width: 200px;
+		 height: 25px;
+		 font-size: 18px;
+		 text-transform: uppercase;
+		     margin-top: 296px;
+}
+div.book #button2 {
+		 font-family: 'Roboto', sans-serif;
+		 color: white;
+	     position: absolute;
+		 background-color: #c72727;
+		 border: 1px solid #c72727;
+		 width: 200px;
+		 height: 25px;
+		 font-size: 18px;
+		 text-transform: uppercase;
+		     margin-top: 296px;
+}
+div.book #button3 {
+		 font-family: 'Roboto', sans-serif;
+		 color: white;
+	     position: absolute;
+		 background-color: #c72727;
+		 border: 1px solid #c72727;
+		 width: 200px;
+		 height: 25px;
+		 font-size: 18px;
+		 text-transform: uppercase;
+		     margin-top: 296px;
+}
+div.book #button4 {
+		 font-family: 'Roboto', sans-serif;
+		 color: white;
+	     position: absolute;
+		 background-color: #c72727;
+		 border: 1px solid #c72727;
+		 width: 200px;
+		 height: 25px;
+		 font-size: 18px;
+		 text-transform: uppercase;
+		     margin-top: 296px;
+}
+div.book #button5{
+		 font-family: 'Roboto', sans-serif;
+		 color: white;
+	     position: absolute;
+		 background-color: #c72727;
+		 border: 1px solid #c72727;
+		 width: 200px;
+		 height: 25px;
+		 font-size: 18px;
+		 text-transform: uppercase;
+		     margin-top: 296px;
+}
